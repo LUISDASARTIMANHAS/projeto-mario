@@ -6,12 +6,12 @@ const linkVideo = video.src;
 
 
 btnTrailer.addEventlistener("click", () => {
-    modalClass
+    modalClass();
 video.src = linkVideo;
 });
 
 btnFecharModal.addEventlistener("click", () => {
-    modalClass
+    modalClass();
 video.src = "";
 });
 
