@@ -6,12 +6,12 @@ const linkVideo = video.src;
 
 
 btnTrailer.addEventlistener("click", () => {
-    alternarModal();
+    modalClass();
 video.src = linkVideo;
 });
 
 btnFecharModal.addEventlistener("click", () => {
-    alternarModal();
+    modalClass();
 video.src = "";
 });
 
