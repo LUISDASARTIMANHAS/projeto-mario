@@ -10,7 +10,7 @@ function modalClass() {
 };
 
 
-btnTrailer.addEventlistener("click", () => {
+btnTrailer.addEventListener("click", () => {
     modalClass();
 video.src = linkVideo;
 });
