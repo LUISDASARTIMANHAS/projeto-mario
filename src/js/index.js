@@ -5,6 +5,11 @@ const video = document.getElementById("video");
 const linkVideo = video.src;
 
 
+function modalClass() {
+    modal.classList.toggle("aberto");
+};
+
+
 btnTrailer.addEventlistener("click", () => {
     modalClass();
 video.src = linkVideo;
@@ -14,7 +19,3 @@ btnFecharModal.addEventlistener("click", () => {
     modalClass();
 video.src = "";
 });
-
-function modalClass() {
-    modal.classList.toggle("aberto");
-};
