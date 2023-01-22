@@ -15,7 +15,7 @@ btnTrailer.addEventListener("click", () => {
 video.src = linkVideo;
 });
 
-btnFecharModal.addEventlistener("click", () => {
+btnFecharModal.addEventListener("click", () => {
     modalClass();
 video.src = "";
 });
