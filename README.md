@@ -1,6 +1,1 @@
-# projeto site do mario
-Acesse a Pagina Web!
-<br>
-access the WebPage!
-<br>
-https://luisdasartimanhas.github.io/projeto-mario/ 
+Projeto Mario feito no evento do zero ao programador contratado, dev em dobro
